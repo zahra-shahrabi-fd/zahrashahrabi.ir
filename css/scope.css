@@ -1,0 +1,501 @@
+@media screen and (max-width:576px){
+    .me>p{
+        font-size: 13px;
+    }
+    .skill_titr>h2{
+        padding-left: 15px;
+    }
+    .wrp>div:nth-of-type(1){
+        display: none;
+    }
+    .wrp>div:nth-of-type(2){
+        background-image: url(../img/cartoon-image-cute-envelope-with-eyes-arms-and-vector-29468092.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+/* ********************************************end small mobile************************************ */
+@media screen and (min-width:577px){
+    .main-skill{
+        margin: 0 65px;
+    }
+    .wrp>div:nth-of-type(1){
+        display: none;
+    }
+    .wrp>div:nth-of-type(2){
+        background-image: url(../img/cartoon-image-cute-envelope-with-eyes-arms-and-vector-29468092.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .wrp>div:nth-of-type(2)>div>.logo>a{
+        width: 48px;
+        height: 48px;
+        padding: 20px !important;
+    }
+    .porto_head_bottom>div:nth-of-type(2)>div:nth-of-type(3){
+        transform: scale(0.6);
+    }
+    .hobabs>div:nth-of-type(1){
+         top: -500%; left: 0;
+         transform: scale(1);
+    }
+    .hobabs>div:nth-of-type(2){
+        top: -200%; left: 36%;
+        visibility: visible;
+    }
+    .hobabs>div:nth-of-type(3){
+        visibility: hidden;
+    }
+    .hobabs>div:nth-of-type(4){
+        top: -300%; right: 0;
+    }
+}
+
+/* ***************************************************end big mobile************************************* */
+@media screen and (min-width:768px){
+    .home_page{
+        min-height: 110vh;
+    }
+    .cir{
+        display: block;
+        transform-origin: top;
+        transform: scale(0.6) translate(21%);
+    }
+    .hello{
+        margin-top: 20vh;
+    }
+    .hello>div>div:nth-of-type(1)>h1{
+        font-size: 32px !important;
+    }
+    .hello>div>div:nth-of-type(2)>p{
+        font-size: 30px !important;
+    }
+    .bigphoto{
+        min-height: 34vh;
+    }
+    .bigphoto>div:nth-of-type(1){
+        /* transform: translateX(-7%) translateY(7%) scale(1.3); */
+        transform: scale(1.6) translateX(40px) translateY(40px);
+        transform-origin: bottom;
+    }
+    .main-skill{
+        min-height: 85vh;
+        margin: 0 0;
+    }
+    .skill_titr>h2{
+        padding-left: 60px;
+    }
+    .skill_titr>h2{
+        font-size: 50px;
+    }
+    .mohtava>div:nth-of-type(2)>div{
+        bottom: 0; left: 250px;
+    }
+    .mohtava>div:nth-of-type(2)>div{
+        bottom: 0; left: 60px;
+    }
+    .main-skill>div{
+        min-height: 160px;
+    }
+    .contact-page{
+        min-height: 100vh;
+    }
+    .wrp{
+        min-height: 80vh;
+    }
+    .wrp>div:nth-of-type(1){
+        display: block;
+    }
+    .wrp>div:nth-of-type(2)>div:first-child{
+        font-size: 26px;
+    }
+    .wrp>div:nth-of-type(2)>div{
+        width: 100% !important;
+    }
+    .wrp>div:nth-of-type(2){
+        background-image: none;
+    }
+    .wrp>div:nth-of-type(2)>div:last-child>div{
+        margin-left: 20%;
+    }
+    .wrp>div:nth-of-type(2)>div>.logo>a{
+        width: 45px;
+        height: 45px;
+    }
+    .wrp>div:nth-of-type(2)>div>.logo>a{
+        width: 45px;
+        height: 45px;
+        padding: 0 !important;
+        margin: 14px 0 !important;
+    }
+    .about-page{
+        min-height: 100vh;
+    }
+    .main_menu{
+        visibility: visible;
+    }
+    .navbar{
+        display: none;
+    }
+    .bio{
+        min-height: 70vh;
+        margin-top: 0 !important;
+    }
+    .left{
+        min-height: 100vh;
+    }
+    .right>div:nth-of-type(2)>figure{
+        width: 350px !important;
+        height: 350px !important;
+        border-radius: 0%;
+        transform: translateY(-10%);
+    }
+    .right>div:nth-of-type(2)>figure:hover{
+        transform: translateX(-3%) translateY(-12%);
+    }
+    .right>div:nth-of-type(1)>figure{
+        margin-right: 60px !important;
+        margin-top: 40px !important;
+    }
+    .left>div>div:nth-of-type(2){
+        visibility: hidden;
+    }
+    .porto_head_bottom{
+        transform: translateY(0);
+    }
+    .porto_head_bottom>div:nth-of-type(2)>div:nth-of-type(4){
+        visibility: visible;
+        top: -20%; right: 10%;
+    }
+    .porto_head_bottom>div:nth-of-type(2)>div:nth-of-type(3){
+        bottom: 30%; left: 0;
+    }
+    .porto_head_bottom>div:nth-of-type(2)>div:nth-of-type(1){
+        top: -45%; left: -55%;
+    }
+    .porto_middle{
+        min-height: 180vh;
+        grid-template-areas:"eye eye zard zard"
+                            "eye eye zard zard"
+                            "eye eye zard zard"
+                            "eye eye zard zard"
+                            "eye eye zard zard"
+                            "eye eye zard zard"
+                            "mosalas mosalas zard zard"
+                            "mosalas mosalas zard zard"
+                            "mosalas mosalas zard zard"
+                            "mosalas mosalas masazh masazh"
+                            "mosalas mosalas masazh masazh"
+                            "mosalas mosalas masazh masazh"
+                            "sandali sandali masazh masazh"
+                            "sandali sandali masazh masazh"
+                            "sandali sandali masazh masazh"
+                            "sandali sandali masazh masazh"
+                            "sandali sandali masazh masazh"
+                            "sandali sandali masazh masazh"
+                            "sandali sandali bastani bastani"
+                            "sandali sandali bastani bastani"
+                            "sandali sandali bastani bastani"
+                            "khali khali bastani bastani"
+                            "khali khali bastani bastani"
+                            "khali khali bastani bastani"
+    }
+    .hobabs>div:nth-of-type(1){
+         top: -500%; left: 0;
+         transform: scale(0.9);
+    }
+    .hobabs>div:nth-of-type(2){
+         top: -200%; left: 31%;
+         visibility: visible;
+    }
+    .hobabs>div:nth-of-type(3){
+         bottom: 160%; left: 50%;
+         transform: scale(0.9);
+         visibility: visible;
+    }
+    .hobabs>div:nth-of-type(4){
+        top: -240%; right: 0;
+        transform: scale(1);
+    }
+}
+
+/* *******************************************************end tablet****************************************** */
+@media screen and (min-width:992px){
+    .home_page{
+        min-height: 150vh;
+    }
+    .cir{
+        display: block;
+        transform: scale(1);
+    }
+    .hello{
+        margin-top: 46vh;
+    }
+    .hello>div>div:nth-of-type(1)>h1{
+        font-size: 50px !important;
+    }
+    .hello>div>div:nth-of-type(2)>p{
+        font-size: 18px !important;
+    }
+    .bigphoto{
+        min-height: 48vh;
+    }
+    .bigphoto>div:nth-of-type(1){
+        /* transform: translateX(-2%) translateY(2%) scale(3); */
+        transform: scale(2.6) translateX(80px) translateY(10px);
+    }
+    .bigphoto>div:nth-of-type(2){
+        display: block;
+    }
+    .skill_titr>h2{
+        padding-left: 115px;
+    }
+    .main-skill>div{
+        transform: translateY(-5%);
+    }
+    .mohtava{
+        min-height: 130vh;
+    }
+    .mohtava{
+        margin: 0 40px;
+    }
+    .mohtava>*{
+        min-height: 130vh;
+    }
+    .mohtava>div:nth-of-type(1)>div:nth-of-type(1){
+        top: 100px; right: 10px;
+    }
+    .mohtava>div:nth-of-type(2)>div{
+        bottom: 0; left: 180px;
+    }
+    .main-skill>div{
+        min-height: 280px;
+    }
+    .wrp>div:nth-of-type(2)>div{
+        width: 80% !important;
+    }
+    .wrp>div:nth-of-type(2)>div:last-child>div{
+        margin-left: 25%;
+    }
+    .right>div>figure{
+        width: 230px !important;
+        height: 230px !important;
+    }
+    .right>div:nth-of-type(2)>figure{
+        width: 350px !important;
+        height: 350px !important;
+        margin-left: 120px !important;
+    }
+    .right>div:nth-of-type(1)>figure{
+        margin-right: 140px !important;
+    }
+    .left>div>div:nth-of-type(2){
+        visibility: visible;
+        bottom: -4%;
+    }
+    .left>div>div:nth-of-type(2){
+        bottom: -10% !important;
+    }
+    .porto_head_bottom>div:nth-of-type(2)>div:nth-of-type(1){
+        top: -45%; left: -35%;
+   }
+   .porto_head_bottom>div:nth-of-type(2)>div:nth-of-type(2){
+       visibility: visible;
+   }
+   .porto_head_bottom>div:nth-of-type(2)>div:nth-of-type(3){
+        bottom: 22%; left: 35%;
+        transform: scale(1);
+   }
+   .porto_head_bottom>div:nth-of-type(2)>div:nth-of-type(4){
+       top: -14%; right: 7%;
+   }
+   .porto_middle{
+    min-height: 100vh;
+    grid-template-areas:"eye eye zard zard mosalas mosalas"
+                    "eye eye zard zard  mosalas mosalas"
+                    "masazh masazh zard zard sandali sandali"
+                    "masazh masazh zard zard sandali sandali"
+                    "masazh masazh bastani bastani sandali sandali"
+                    "masazh masazh bastani bastani sandali sandali"
+}
+.hobabs>div:nth-of-type(1){
+    top: -460%; left: 4%;
+    transform: scale(1);
+}
+.hobabs>div:nth-of-type(2){
+    top: -120%; left: 31%;
+}
+.hobabs>div:nth-of-type(3){
+    bottom: -10%; left: 55%;
+}
+.hobabs>div:nth-of-type(4){
+      top: -175%; right: 3%;
+      transform: scale(1);
+}
+.porto_head_bottom>div:nth-of-type(2)>div:nth-of-type(3){
+    animation: bubble2 infinite 3s alternate linear;
+}
+
+}
+
+/* *********************************************************end desktop***************************************** */
+@media screen and (min-width:1200px){
+    .hello{
+        margin-top: 40vh;
+    }
+    .hello>div>div:nth-of-type(1)>h1{
+        font-size: 80px !important;
+    }
+    .hello>div>div:nth-of-type(2)>p{
+        font-size: 32px !important;
+    }
+    .hello>div>div:nth-of-type(2){
+        align-items: flex-start;
+    }
+    .hello>div>div:nth-of-type(2)>div{
+        visibility: visible;
+    }
+    .bigphoto{
+        min-height: 54vh;
+    }
+    .mohtava>div:nth-of-type(1)>div:nth-of-type(1){
+        top: 20px; right: 20px;
+    }
+    .mohtava>div:nth-of-type(2)>div{
+        bottom: 0; left: 250px;
+    }
+    .bio{
+        animation: cloud linear infinite alternate-reverse 30s;
+    }
+    .left>div>div:nth-of-type(2){
+        bottom: 0;
+    }
+    .left>div>div:nth-of-type(2){
+        bottom: -6% !important;
+    }
+
+}
+
+/* ***********************************************************end big******************************************* */
+@media screen and (max-width:320px){
+    .me>p{
+        font-size: 10px !important;
+    }
+    .hello>div>div:nth-of-type(1)>h1{
+        font-size: 20px !important;
+    }
+    .hello>div>div:nth-of-type(2)>div{
+        width: 40px;
+        top: 35%; left: -6%;
+    }
+    /* .hello>div>div:nth-of-type(2)>div{
+        width: 38px !important;
+        margin-left: 0;
+    } */
+    .hello>div>div:nth-of-type(2)>p{
+        font-size: 17px !important;
+        padding-bottom: 12px !important;
+    }
+    .left>div>div:nth-of-type(2){
+        visibility: hidden;
+    }
+    .hobabs>div:nth-of-type(1){
+        top: -700%; left: -10%;
+    }
+
+}
+
+/* ************************************************************************************** */
+@media screen and (max-width:376px){
+    .me>p{
+        font-size: 12px;
+    }
+    .hello>div>div:nth-of-type(1)>h1{
+        font-size: 24px !important;
+    }
+    .hello>div>div:nth-of-type(2)>div{
+        width: 36px;
+        top: 34%; left: -2%;
+    }
+    .hello>div>div:nth-of-type(2)>p{
+        padding-bottom: 17px;
+    }
+    .left>div>div:nth-of-type(2){
+        visibility: hidden;
+    }
+    .hobabs>div:nth-of-type(1){
+        top: -700%; left: -8%;
+    }
+
+}
+/* *********************************************************************************** */
+@media screen and (max-width:426px){
+    .left>div>div:nth-of-type(2){
+        bottom: -12%;
+    }
+}
+
+/* *********************************************************************************** */
+@media screen and (min-width:1400px){
+    .left>div>h3{
+        margin-top: 160px;
+    }
+    .left>div>*{
+        margin-left: 160px;
+    }
+    .left>div>p{
+        padding-right: 0;
+    }
+    .left>div>div:nth-of-type(2){
+        bottom: -40%;
+    }
+    .porto_middle{
+        min-height: 75vh;
+        margin-top: 15vh;
+    }
+
+}
+
+/* ************************************************************************************ */
+@media screen and (min-width:2500px){
+    .home_page{
+        min-height: 130vh;
+    }
+    .hello>div>div:nth-of-type(2)>div{
+        visibility: hidden;
+    }
+    .left>div>h3{
+        margin-top: 460px;
+    }
+    .left>div>*{
+        margin-left: 200px;
+    }
+    .right>div:nth-of-type(2)>figure{
+        transform: translateY(-100%);
+    }
+    .right>div:nth-of-type(2)>figure:hover{
+        transform: translateX(-3%) translateY(-103%);
+    }
+    .right>div>figure{
+        transform: translateX(-40%);
+    }
+    .left>div>div:nth-of-type(2){
+        bottom: -110%;
+    }
+    .porto_middle{
+        min-height: 50vh;
+        margin-top: 10vh;
+    }
+    .see_more{
+        min-height: 15vh;
+    }
+    .see_more>div{
+        margin-bottom: 30px;
+    }
+    .porto_foot{
+        min-height: 55vh;
+    }
+
+}
